@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Machine Learning</title>
+
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <main role="main">
+    <div class="jumbotron bg-jumbotron" id="sec-home">
+      <div style="
+      height: -webkit-fill-available;
+      background: rgba(0,0,0,0.6);
+      "></div>
+      <div class="container content-jumbotron text-center">
+        <h1 class="display-3" style="margin-top:40px;">Machine Learning ?</h1>
+        <Button class="btn-getstarted" id="getstarted" style="margin-top:40px;">Get Started</Button>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <section class="section text-center" id="sec-getstarted">
+        <h3 class="text-center title-section">Machine Learning</h3>
+        <iframe width="720" height="428" src="https://www.youtube.com/embed/HcqpanDadyQ" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe><br />
+        <Button class="btn-next" id="next">Next</Button>
+      </section>
+
+      <section class="section text-center" id="sec-type">
+        <h3 class="text-center title-section">Types of Machine Learning</h3>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col md-10">
+            <div class="row">
+              <div class="col-md-4 col-lg-4">
+                <div class="card">
+                  <img src="./assets/img/supervised.png" alt="Jane" class="img-card">
+                  <div class="container">
+                    <h5 class="title-card">Supervised Learning</h5>
+                    <p><button class="btn-detail" id="detail-supervised">Detail</button></p>
+                  </div>
+                </div>
+                <div id="supervised-content" class="overlay">
+                  <a href="javascript:void(0)" class="closebtn" id="close-supervised">&times;</a>
+                  <div class="overlay-content">
+                    <p>
+                      Supervised learning algorithms build a mathematical model of a set of data that contains both the
+                      inputs and the desired outputs.[18] The data is known as training data, and consists of a set of
+                      training examples. Each training example has one or more inputs and a desired output, also known
+                      as a supervisory signal. In the case of semi-supervised learning algorithms, some of the training
+                      examples are missing the desired output. In the mathematical model, each training example is
+                      represented by an array or vector, and the training data by a matrix. Through iterative
+                      optimization of an objective function, supervised learning algorithms learn a function that can be
+                      used to predict the output associated with new inputs.[19] An optimal function will allow the
+                      algorithm to correctly determine the output for inputs that were not a part of the training data.
+                      An algorithm that improves the accuracy of its outputs or predictions over time is said to have
+                      learned to perform that task.[6]
+                    </p>
+                    <p>
+                      Supervised learning algorithms include classification and regression.[20] Classification
+                      algorithms are used when the outputs are restricted to a limited set of values, and regression
+                      algorithms are used when the outputs may have any numerical value within a range. Similarity
+                      learning is an area of supervised machine learning closely related to regression and
+                      classification, but the goal is to learn from examples using a similarity function that measures
+                      how similar or related two objects are. It has applications in ranking, recommendation systems,
+                      visual identity tracking, face verification, and speaker verification.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-4">
+                <div class="card">
+                  <img src="./assets/img/unsupervised.png" alt="Mike" class="img-card">
+                  <div class="container">
+                    <h5 class="title-card">Unsupervised Learning</h5>
+                    <p><button class="btn-detail" id="detail-unsupervised">Detail</button></p>
+                  </div>
+                </div>
+                <div id="unsupervised-content" class="overlay">
+                  <a href="javascript:void(0)" class="closebtn" id="close-unsupervised">&times;</a>
+                  <div class="overlay-content">
+                    <p>
+                      Unsupervised learning algorithms take a set of data that contains only inputs, and find structure
+                      in the data, like grouping or clustering of data points. The algorithms therefore learn from test
+                      data that has not been labeled, classified or categorized. Instead of responding to feedback,
+                      unsupervised learning algorithms identify commonalities in the data and react based on the
+                      presence or absence of such commonalities in each new piece of data. A central application of
+                      unsupervised learning is in the field of density estimation in statistics,[21] though unsupervised
+                      learning encompasses other domains involving summarizing and explaining data features.
+                    </p>
+                    <p>
+                      Cluster analysis is the assignment of a set of observations into subsets (called clusters) so that
+                      observations within the same cluster are similar according to one or more predesignated criteria,
+                      while observations drawn from different clusters are dissimilar. Different clustering techniques
+                      make different assumptions on the structure of the data, often defined by some similarity metric
+                      and evaluated, for example, by internal compactness, or the similarity between members of the same
+                      cluster, and separation, the difference between clusters. Other methods are based on estimated
+                      density and graph connectivity.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-4">
+                <div class="card">
+                  <img src="./assets/img/reinforcement.png" alt="John" class="img-card">
+                  <div class="container">
+                    <h5 class="title-card">Reinforcement Learning</h5>
+                    <p><button class="btn-detail" id="detail-reinforcement">Detail</button></p>
+                  </div>
+                </div>
+                <div id="reinforcement-content" class="overlay">
+                  <a href="javascript:void(0)" class="closebtn" id="close-reinforcement">&times;</a>
+                  <div class="overlay-content">
+                    <p>
+                      Reinforcement learning is an area of machine learning concerned with how software agents ought to
+                      take actions in an environment so as to maximize some notion of cumulative reward. Due to its
+                      generality, the field is studied in many other disciplines, such as game theory, control theory,
+                      operations research, information theory, simulation-based optimization, multi-agent systems, swarm
+                      intelligence, statistics and genetic algorithms.[22][23] In machine learning, the environment is
+                      typically represented as a Markov Decision Process (MDP). Many reinforcement learning algorithms
+                      use dynamic programming techniques.[22][23][24] Reinforcement learning algorithms do not assume
+                      knowledge of an exact mathematical model of the MDP, and are used when exact models are
+                      infeasible.[22][23] Reinforcement learning algorithms are used in autonomous vehicles or in
+                      learning to play a game against a human opponent.
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+        <Button class="btn-next" id="top" style="margin-top:40px; width: 150px;">Goto Top</Button>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container text-center">
+      <span class="text-center">This website was made with love.</span>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#getstarted").click(function () {
+        $('html, body').animate({
+          scrollTop: $("#sec-getstarted").offset().top
+        }, 600);
+      });
+
+      $("#next").click(function () {
+        $('html, body').animate({
+          scrollTop: $("#sec-type").offset().top
+        }, 600);
+      });
+
+      $("#top").click(function () {
+        $('html, body').animate({
+          scrollTop: $("#sec-home").offset().top
+        }, 600);
+      });
+
+      $("#fun").click(function () {
+        $('html, body').animate({
+          scrollTop: $("#sec-fun").offset().top
+        }, 600);
+      });
+
+      $("#detail-supervised").click(function () {
+        $("#supervised-content").css("height", "100%")
+      });
+
+      $("#close-supervised").click(function () {
+        $("#supervised-content").css("height", "0")
+      });
+
+      $("#detail-unsupervised").click(function () {
+        $("#unsupervised-content").css("height", "100%")
+      });
+
+      $("#close-unsupervised").click(function () {
+        $("#unsupervised-content").css("height", "0")
+      });
+
+      $("#detail-reinforcement").click(function () {
+        $("#reinforcement-content").css("height", "100%")
+      });
+
+      $("#close-reinforcement").click(function () {
+        $("#reinforcement-content").css("height", "0")
+      });
+    });
+
+  </script>
+</body>
+</html>
